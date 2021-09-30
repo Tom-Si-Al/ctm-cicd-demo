@@ -1,0 +1,32 @@
+name: CD
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  publish_stage:
+    environment: github-pages
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+        with:
+          ref: main
+      - name: Set up node env
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - name: Install dependencies
+        run: npm ci
+      - name: Build
+        run: npm run build
+      - name: Deploy Github pages
+        run: |
+          git remote set-url origin https://git:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          npm run deploy
+          echo "Successful deployment of app. See: https://tom-si-al.github.io/ctm-cicd-demo"
