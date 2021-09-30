@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/create-react-app/static/js/main.a0dc0c09.chunk.js",
-    "main.js.map": "/create-react-app/static/js/main.a0dc0c09.chunk.js.map",
-    "runtime-main.js": "/create-react-app/static/js/runtime-main.1fe6139b.js",
-    "runtime-main.js.map": "/create-react-app/static/js/runtime-main.1fe6139b.js.map",
-    "static/css/2.f2512455.chunk.css": "/create-react-app/static/css/2.f2512455.chunk.css",
-    "static/js/2.8721bfcc.chunk.js": "/create-react-app/static/js/2.8721bfcc.chunk.js",
-    "static/js/2.8721bfcc.chunk.js.map": "/create-react-app/static/js/2.8721bfcc.chunk.js.map",
-    "static/js/3.abc64f63.chunk.js": "/create-react-app/static/js/3.abc64f63.chunk.js",
-    "static/js/3.abc64f63.chunk.js.map": "/create-react-app/static/js/3.abc64f63.chunk.js.map",
-    "index.html": "/create-react-app/index.html",
-    "static/css/2.f2512455.chunk.css.map": "/create-react-app/static/css/2.f2512455.chunk.css.map",
-    "static/js/2.8721bfcc.chunk.js.LICENSE.txt": "/create-react-app/static/js/2.8721bfcc.chunk.js.LICENSE.txt",
-    "static/media/happy.016724b0.jpg": "/create-react-app/static/media/happy.016724b0.jpg",
-    "static/media/sad.12b743f0.jpg": "/create-react-app/static/media/sad.12b743f0.jpg"
+    "main.js": "/ctm-cicd-demo/static/js/main.a0dc0c09.chunk.js",
+    "main.js.map": "/ctm-cicd-demo/static/js/main.a0dc0c09.chunk.js.map",
+    "runtime-main.js": "/ctm-cicd-demo/static/js/runtime-main.d18d13d5.js",
+    "runtime-main.js.map": "/ctm-cicd-demo/static/js/runtime-main.d18d13d5.js.map",
+    "static/css/2.f2512455.chunk.css": "/ctm-cicd-demo/static/css/2.f2512455.chunk.css",
+    "static/js/2.8721bfcc.chunk.js": "/ctm-cicd-demo/static/js/2.8721bfcc.chunk.js",
+    "static/js/2.8721bfcc.chunk.js.map": "/ctm-cicd-demo/static/js/2.8721bfcc.chunk.js.map",
+    "static/js/3.abc64f63.chunk.js": "/ctm-cicd-demo/static/js/3.abc64f63.chunk.js",
+    "static/js/3.abc64f63.chunk.js.map": "/ctm-cicd-demo/static/js/3.abc64f63.chunk.js.map",
+    "index.html": "/ctm-cicd-demo/index.html",
+    "static/css/2.f2512455.chunk.css.map": "/ctm-cicd-demo/static/css/2.f2512455.chunk.css.map",
+    "static/js/2.8721bfcc.chunk.js.LICENSE.txt": "/ctm-cicd-demo/static/js/2.8721bfcc.chunk.js.LICENSE.txt",
+    "static/media/happy.016724b0.jpg": "/ctm-cicd-demo/static/media/happy.016724b0.jpg",
+    "static/media/sad.12b743f0.jpg": "/ctm-cicd-demo/static/media/sad.12b743f0.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1fe6139b.js",
+    "static/js/runtime-main.d18d13d5.js",
     "static/css/2.f2512455.chunk.css",
     "static/js/2.8721bfcc.chunk.js",
     "static/js/main.a0dc0c09.chunk.js"
