@@ -1,6 +1,6 @@
 export const isEmailValid = (email) => {
   if (email.includes('@')) {
-    return false
+    return true
   }
   return false
 }
