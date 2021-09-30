@@ -15,7 +15,7 @@ class App extends React.Component {
   }
 
   handleEmailValidation = (event) => {
-    this.setStater({
+    this.setState({
       email: event.target.value,
       isEmailValid: isEmailValid(event.target.value),
     })
